@@ -1,0 +1,61 @@
+
+html {
+  
+    color:blue;
+}
+
+#header {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    display: block;
+    color:cadetblue;
+ 
+}
+
+body {
+    background-color: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 25px purple solid;
+}
+
+#list {
+    display: block;
+    float:left;
+    border:2px solid black;
+}
+
+#links {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+    float:center;
+    border:2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+span.a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 28px;
+}
+
+#start-quiz {
+    
+    background-color:rgb(31, 75, 116);
+    padding:25px;
+    border-radius: 100px;
+    -moz-border-radius:100px;
+    -webkit-border-radius: 100px;
+}
+
+#play-again-button {
+    background-color:rgb(31, 75, 116);
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,61 @@
+<!--Mercury .png by Source : <a title="mercury planet png" href="https://pngimage.net/mercury-planet-png/">mercury planet png</a>-->
+<!-- Planet images thanks to : https://science4fun.info/venus/,https://science4fun.info/planet-earth/, https://science4fun.info/venus/, https://science4fun.info/mars/, https://science4fun.info/jupiter/,
+https://science4fun.info/saturn/, https://science4fun.info/uranus/, https://science4fun.info/neptune/, https://science4fun.info/pluto/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Comments go in these -->
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Start Quiz</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+        <link rel="stylesheet" type="text/css" href="planets-style.css"> 
+
+        <script src="planetsAndDwarfPlanets.js"></script>
+        <script async defer src="quiz.js"></script>
+
+    </head>
+    <body>
+        <!-- Write your HTML content here -->
+        <header id="header"> Celestial Bodies and Their Moons Quiz
+            <nav>
+                <li><a href="index.html" target="blank">HOME</a></li>
+                <li><a href="start.html" target="blank">START QUIZ</a></li>
+                <li><a href="planets-Dwarf.html" target="blank">INFO PAGE</a></li>
+                <li><a href="credits.html" target="blank">CREDITS</a></li>
+            </nav>
+        </header>
+        <br>
+
+	<h1>Welcome to the Celestial Bodies and Their Moons Quiz Start Page.</h1>
+
+    <p> Enter the number of moons that the Celestial Body has. <br>
+        Then click on the INFO link above and see facts about the planet and the moons for that planet.
+    </p>
+
+    
+
+    <h3 id="random-body"></h3>
+
+    <div class="input-group mb-3">
+        <input type="text" id="user-answer" class="form-control" placeholder="Your Answer here" aria-label="answer" aria-describedby="submit-answer">
+    </div>
+        <button class="btn btn-outline-primary" type="button" id="submit-answer">Submit Answer</button>
+
+    
+
+    <h3 id="result"></h3>
+
+    <!-- A Play Again button to select a new random country, 
+        clear the user answer and result, so the user can have another turn.  -->
+        <button id="play-again-button">Play Again?</button>
+
+    <script>
+         // Script found in quiz.js, planetsAndDwarfPlanets.js
+
+    </script>
+    </body>
+
+</html>
