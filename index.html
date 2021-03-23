@@ -1,6 +1,8 @@
-
-<!--Universe.jpg thanks to Photo by <a href="https://unsplash.com/@gferla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Guillermo Ferla</a> on <a href="/s/photos/planet-mercury?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  -->
+<!-- Website by Matt Boyer 3/23/2021 MidTerm ITEC 2560 Web Design
+This Website is a quiz that asks the user for the number of moons for a random planet selected from an API database.
+The Home page gives the user information about the quiz and what planets will be used.
+Links to the other websites. 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <!-- Comments go in these -->
@@ -8,18 +10,18 @@
         <meta charset="UTF-8">
        
         <title>Home Page Moons Quiz</title>
-
+<!-- Bootstrap stylesheet and css stylesheet-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
         <link rel="stylesheet" type="text/css" href="planets-style.css"> 
         
-
-        <script src="planetsAndDwarfPlanets.js"></script>
-        <script async defer src="quiz.js"></script> 
+        <script src="planetsAndDwarfPlanets.js"></script>               <!-- Link to the API collected javascript-->
+        <script async defer src="quiz.js"></script>                     <!-- Link to the javascript -->
     </head>
+
     <body>
         <!-- Write your HTML content here -->
       
-    <header id="header"> Celestial Bodies and Their Moons Quiz
+    <header id="header"> Celestial Bodies and Their Moons Quiz              <!-- Links to the other pages -->
         <nav>
             <li><a href="index.html" target="_blank">HOME</a></li>
             <li><a href="start.html" target="_blank">START QUIZ</a></li>
@@ -28,13 +30,9 @@
         </nav>
     </header>
     <br>
-
-	    
-
         <h3>Welcome to the Celestial Bodies and Their Moons Quiz.</h3>
         <br>
         <p>Here, a random Celestial Body with be given from the list below and you will guess the number of moons it has.</p>
-        
     <p>
         <span class="a"><img src="images/mercury-planet.png" alt="mercury">Mercury<br></a></span>
         <span class="a"><img src="images/venus-planet.jpg" alt="venus">Venus<br></a></span>
@@ -53,14 +51,10 @@
         
     <p>Once an answer is given, you can click on the link provided and read more about the Celestial Body and it's moons.</p>
 
-    <button id="start-quiz"><a href="start.html" target="_blank">Click here to start!</a></button>
+    <button id="start-quiz"><a href="start.html" target="_blank">Click here to start!</a></button>      <!-- Button Link to the Start page-->
  
-
     <script>
         // Script found in quiz.js, planetsAndDwarfPlanets.js
-
     </script>
-
     </body>
-
 </html>

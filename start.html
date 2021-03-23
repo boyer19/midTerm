@@ -1,4 +1,8 @@
-
+<!-- Website by Matt Boyer 3/23/2021 MidTerm ITEC 2560 Web Design
+This Website is a quiz that asks the user for the number of moons for a random planet selected from an API database.
+The Start page gives the user information about the quiz, selects a random planet, and allows user to enter a number guess for moons. 
+Provides links to the other websites. 
+-->
 
 
 <!DOCTYPE html>
@@ -8,17 +12,17 @@
         <meta charset="UTF-8">
         
         <title>Start Quiz</title>
-
+<!-- Bootstrap stylesheet and css stylesheet-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
         <link rel="stylesheet" type="text/css" href="planets-style.css"> 
 
-        <script src="planetsAndDwarfPlanets.js"></script>
-        <script async defer src="quiz.js"></script>
+        <script src="planetsAndDwarfPlanets.js"></script>                               <!-- Link to the API collected javascript-->
+        <script async defer src="quiz.js"></script>                                     <!-- Link to the javascript -->
 
     </head>
     <body>
         <!-- Write your HTML content here -->
-        <header id="header"> Celestial Bodies and Their Moons Quiz
+        <header id="header"> Celestial Bodies and Their Moons Quiz                      <!-- Links to the other pages -->
             <nav>
                 <li><a href="index.html" target="blank">HOME</a></li>
                 <li><a href="start.html" target="blank">START QUIZ</a></li>
@@ -35,27 +39,21 @@
         Then click on the INFO link above and see facts about the<br> planet and the moons for that planet.
     </p>
 
-    
+    <h3 id="random-body"></h3>                                                          <!-- To be used as an innerHtml element message for random planet selected -->
 
-    <h3 id="random-body"></h3>
-
-    <div class="input-group mb-3">
+    <div class="input-group mb-3">                                                      <!-- User input box -->
         <input type="text" id="user-answer" class="form-control" placeholder="Your Answer here" aria-label="answer" aria-describedby="submit-answer">
     </div>
-        <button class="btn btn-outline-primary" type="button" id="submit-answer">Submit Answer</button>
+        <button class="btn btn-outline-primary" type="button" id="submit-answer">Submit Answer</button>     <!-- User submit button, ties in with Enter button on keyboard -->
 
-    
-
-    <h3 id="result"></h3>
+    <h3 id="result"></h3>                                                               <!-- To be used as an innerHtml element message -->
 
     <!-- A Play Again button to select a new random country, 
         clear the user answer and result, so the user can have another turn.  -->
-        <button id="play-again-button">Play Again?</button>
+        <button id="play-again-button">Play Again?</button>                             <!-- Allows user to play again, clears user guess and correct answer message -->
 
     <script>
          // Script found in quiz.js, planetsAndDwarfPlanets.js
-
     </script>
     </body>
-
 </html>

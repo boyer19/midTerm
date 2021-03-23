@@ -1,5 +1,8 @@
-
-
+<!-- Website by Matt Boyer 3/23/2021 MidTerm ITEC 2560 Web Design
+This Website is a quiz that asks the user for the number of moons for a random planet selected from an API database.
+The Info page gives the user links to Wikipedia information about that planet. 
+Provides links to the other websites. 
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,21 +11,16 @@
         <meta charset="UTF-8">
         
         <title>Planets and Dwarf Planets Info</title>
-
+<!-- Bootstrap stylesheet and css stylesheet-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="planets-style.css"> 
 
-        <script src="planetsAndDwarfPlanets.js"></script>
-        <script async defer src="quiz.js"></script>
-
+        <script src="planetsAndDwarfPlanets.js"></script>                           <!-- Link to the API collected javascript-->
+        <script async defer src="quiz.js"></script>                                  <!-- Link to the javascript -->
     </head>
+
     <body>
-        
-        
-
-        
-
-        <header id="header"> Celestial Bodies and Their Moons Quiz
+        <header id="header"> Celestial Bodies and Their Moons Quiz                  <!-- Links to the other pages -->
             <nav>
                 <li><a href="index.html" target="blank">HOME</a></li>
                 <li><a href="start.html" target="blank">START QUIZ</a></li>
@@ -33,9 +31,7 @@
         <br>
         
         <h1>Welcome to the Planets and Dwarf Planets Information Page</h1>
-	
-
-    <!--<p id="list">  look into flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/--> 
+<!-- Wikipedia links -->
         <p>
             <span class="a"><a title="mercury planet png" href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank"><img src="images/mercury-planet.png" alt="mercury">Mercury<br></a></span>
             <span class="a"><a title="venus planet png" href="https://en.wikipedia.org/wiki/Venus" target="_blank"><img src="images/venus-planet.jpg" alt="venus">Venus<br></a></span>
@@ -53,8 +49,6 @@
         </p>
     <script>
         // Script found in quiz.js, planetsAndDwarfPlanets.js
-
     </script>
     </body>
-
 </html>

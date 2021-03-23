@@ -1,3 +1,6 @@
+/* Website by Matt Boyer 3/23/2021 MidTerm ITEC 2560 Web Design
+This javascript file was created and written by Matt Boyer using the data from the API provider */
+
 // API Courtesy of https://api.le-systeme-solaire.net/rest/bodies/ from https://api.le-systeme-solaire.net/en/ //
 
 let planetsAndDwarfs = [

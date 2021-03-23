@@ -1,5 +1,8 @@
-
-
+<!-- Website by Matt Boyer 3/23/2021 MidTerm ITEC 2560 Web Design
+This Website is a quiz that asks the user for the number of moons for a random planet selected from an API database.
+The Credits page gives the user links to the sources about the API and pictures. 
+Provides links to the other websites. 
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,18 +10,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Credits Page</title>
-      <!--  <link rel="stylesheet" type="text/css" href="style.css"> -->			<!--commented out-->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
-        <link rel="stylesheet" type="text/css" href="planets-style.css"> 
+<!-- Bootstrap stylesheet and css stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+    <link rel="stylesheet" type="text/css" href="planets-style.css"> 
         
-
-        <script src="planetsAndDwarfPlanets.js"></script>
-        <script async defer src="quiz.js"></script> 
+        <script src="planetsAndDwarfPlanets.js"></script>                                       <!-- Link to the API collected javascript-->
+        <script async defer src="quiz.js"></script>                                             <!-- Link to the javascript -->
     </head>
+
     <body>
         <!-- Write your HTML content here -->
       
-    <header id="header"> Celestial Bodies and Their Moons Quiz
+    <header id="header"> Celestial Bodies and Their Moons Quiz                                  <!-- Links to the other pages -->
         <nav>
             <li><a href="index.html" target="_blank">HOME</a></li>
             <li><a href="start.html" target="_blank">START QUIZ</a></li>
@@ -31,11 +34,11 @@
         <br>
         <h3>Here, we show appreciation to those that helped make these websites possible.</h3>
      <br>
-
+<!-- Links to API -->
      <h4>API:<br> Courtesy of <a href="https://api.le-systeme-solaire.net/rest/bodies/">https://api.le-systeme-solaire.net/rest/bodies/</a> <br>
          from <a href="https://api.le-systeme-solaire.net/en/">https://api.le-systeme-solaire.net/en/</a></h4>
 
-
+<!-- Links to image sources -->
     <h5>Images:</h5>
     <a  title="mercury planet png" href="https://pngimage.net/mercury-planet-png/" target="_blank">Mercury-<br>https://pngimage.net/mercury-planet-png/</a><br>
     <a  title="venus planet png" href="https://science4fun.info/venus/" target="_blank">Venus-<br>https://science4fun.info/venus/</a><br>
@@ -46,17 +49,17 @@
     <a  title="uranus planet png" href="https://science4fun.info/uranus/" target="_blank">Uranus-<br>https://science4fun.info/uranus/</a><br>
     <a  title="neptune planet png" href="https://science4fun.info/neptune/" target="_blank">Neptune-<br>https://science4fun.info/neptune/</a><br>
     <a  title="pluto planet png" href="https://science4fun.info/pluto/" target="_blank">Pluto-<br>https://science4fun.info/pluto/</a><br>
+
+    <p id="warning">The following links will be redirected:</p>         <!-- Creates a warning message of redirection due to server change -->
+
     <a  title="haumea planet png" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsailormoonfanon.fandom.com%2Fwiki%2FHaumea&psig=AOvVaw3KLW7bqoE0Hi0hiZEeBR7Y&ust=1616091073325000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCspNH2t-8CFQAAAAAdAAAAABAP" target="_blank">136108 Haumea-<br>https://www.google.com/url?sa=i&url=https%3A%2F%2Fsailormoonfanon.fandom.com%2Fwiki%2FHaumea&psig=AOvVaw3KLW7bqoE0Hi0hiZEeBR7Y&ust=1616091073325000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCspNH2t-8CFQAAAAAdAAAAABAP</a><br>
     <a  title="eris planet png" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthesolarsystem.fandom.com%2Fwiki%2FEris&psig=AOvVaw2H3D7Ah4vaOkZlODVXk4gS&ust=1616091415213000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCExu_3t-8CFQAAAAAdAAAAABAD" target="_blank">136199 Eris-<br>https://www.google.com/url?sa=i&url=https%3A%2F%2Fthesolarsystem.fandom.com%2Fwiki%2FEris&psig=AOvVaw2H3D7Ah4vaOkZlODVXk4gS&ust=1616091415213000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCExu_3t-8CFQAAAAAdAAAAABAD</a><br>
     <a  title="ceres planet png" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsolarsystem.nasa.gov%2Fplanets%2Fdwarf-planets%2Fceres%2Foverview%2F&psig=AOvVaw1tgpbCHnvwGjOrj_D2Lj7o&ust=1616091554537000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi4rLP4t-8CFQAAAAAdAAAAABAD" target="_blank">1 Ceres<br>https://www.google.com/url?sa=i&url=https%3A%2F%2Fsolarsystem.nasa.gov%2Fplanets%2Fdwarf-planets%2Fceres%2Foverview%2F&psig=AOvVaw1tgpbCHnvwGjOrj_D2Lj7o&ust=1616091554537000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi4rLP4t-8CFQAAAAAdAAAAABAD</a><br>
     <a  title="makemake planet png" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimple.wikipedia.org%2Fwiki%2FMakemake_(dwarf_planet)&psig=AOvVaw2EVuwsWiwA_0Xu67k0emNz&ust=1616091668140000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJi2quj4t-8CFQAAAAAdAAAAABAD" target="_blank">136472 Makemake<br>https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimple.wikipedia.org%2Fwiki%2FMakemake_(dwarf_planet)&psig=AOvVaw2EVuwsWiwA_0Xu67k0emNz&ust=1616091668140000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJi2quj4t-8CFQAAAAAdAAAAABAD</a><br>
 
- 
     </body>
     <script>
         // Script found in quiz.js, planetsAndDwarfPlanets.js
-
     </script>
     </body>
-
 </html>

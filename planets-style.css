@@ -51,9 +51,9 @@ span.a {
 #start-quiz {
     
     color:blue;
-    text-shadow:-1px 1px orange;
+    text-shadow:-1px 1px black;
    
-    background-color:rgb(31, 75, 116);
+    background-color:rgb(103, 127, 150);
     margin:50px;
     padding:25px;
     border-radius: 100px;
@@ -65,6 +65,11 @@ span.a {
     background-color:rgb(80, 112, 141);
 }
 
+#warning {
+    font-size: 18px;
+    padding:0px;
+    margin: 0px;
+}
 p {
     font-size: 30px;
     padding: 10px;
