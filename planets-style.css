@@ -17,6 +17,8 @@ body {
     background-color: none;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: 25px purple solid;
+    padding: 20px;
+    
 }
 
 #list {
@@ -31,13 +33,16 @@ body {
     font-size: 35px;
     float:center;
     border:2px solid black;
+    
 }
 
-h1 {
+h1, h3 {
     text-align: center;
 }
 
 span.a {
+    color:darkblue;
+    text-shadow:1px 1px crimson;
     display: inline-block;
     padding: 10px;
     font-size: 28px;
@@ -45,7 +50,11 @@ span.a {
 
 #start-quiz {
     
+    color:blue;
+    text-shadow:-1px 1px orange;
+   
     background-color:rgb(31, 75, 116);
+    margin:50px;
     padding:25px;
     border-radius: 100px;
     -moz-border-radius:100px;
@@ -53,9 +62,27 @@ span.a {
 }
 
 #play-again-button {
-    background-color:rgb(31, 75, 116);
+    background-color:rgb(80, 112, 141);
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 10px;
+    margin:50px;
+}
+
+#random-body, li {
+    color: blue;
+    text-shadow:1px 1px crimson;
+}
+
+.credit-due {
+    color: black;
+    text-shadow:1px 1px crimson;
+   
+}
+
+h4 {
+    padding: 10px;
+    margin:50px;
 }
